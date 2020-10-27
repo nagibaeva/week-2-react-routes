@@ -14,7 +14,7 @@ const DashboardUser = () => {
         </div>
         <Link to="/dashboard/main">Go To Main</Link>
         <Link to="/dashboard">Go to Root</Link>
-        <div id="username">Username: {user}</div>
+        <div id="username">{user}</div>
       </div>
     </div>
   )
